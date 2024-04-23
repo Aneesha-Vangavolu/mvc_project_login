@@ -1,4 +1,4 @@
-// Model
+// Model for data
 class UserModel {
     constructor(username, password) {
         this.username = username;
