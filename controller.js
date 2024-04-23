@@ -1,12 +1,10 @@
-
-
-// View
+#COntroller
 function showLoginMessage(message) {
     const loginMessage = document.getElementById("loginMessage");
     loginMessage.innerHTML =message;
 }
 
-// Controller
+
 function login() {
     const usernameInput = document.getElementById("username").value;
     const passwordInput = document.getElementById("password").value;
