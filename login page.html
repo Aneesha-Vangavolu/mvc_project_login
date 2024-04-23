@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Box Example</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body style="background: azure">
+
+<!--<button id="openModalBtn">Open Modal</button>-->
+<h1>Simple Login Page</h1>
+<div id="loginForm"; class="login">
+  <h1 style="text-align: -moz-center; color: navy;font-size:50px"><b> Login </b></h1>
+  <h3><b>  Username  </b><br><input type="text" id="username" placeholder="Enter Username"></h3>
+  <h3><b>  Password  </b><br><input type="password" id="password" placeholder="Enter Password"></h3>
+  <button id="openModalBtn", style="padding: 20px 30px"; onclick="login()"><b>Login</b></button>
+
+</div>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="loginMessage">This is a modal box!</p>
+  </div>
+</div>
+
+<script src="model.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>
